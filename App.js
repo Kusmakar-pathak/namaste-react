@@ -12,7 +12,8 @@
 </div>
 
 */
-
+import React from "react";
+import ReactDOM from "react-dom";
 // React.createElement returns a JS object.
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
